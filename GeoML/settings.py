@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'geo',
     'xadmin',
     'crispy_forms',
+    'users',
 ]
+AUTH_USER_MODEL = "users.UserProfile"
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
